@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.table(dir(st))
+library = st.text_input("type standart library name")
+st.table(dir(stlibrary))
