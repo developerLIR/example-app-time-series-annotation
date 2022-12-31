@@ -1,3 +1,5 @@
 vega-datasets
 streamlit
 sqlalchemy
+faker 
+pandas
