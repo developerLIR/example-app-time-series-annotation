@@ -4,3 +4,4 @@ import streamlit as st
 
 
 st.write(dir(faker))
+st.code(input())
