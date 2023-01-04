@@ -10,7 +10,8 @@ st.code(input())
 col1, col2 = st.columns(2)
 
 with col1:
-    if st.button("click to create a list"):
+    bt1 = st.button("click to create a list")
+    if bt1:
         ls = []
         st.write(ls)
 with col2:
