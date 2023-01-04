@@ -3,8 +3,8 @@ import pandas as pandas
 import streamlit as st
 
 st.write('hello')
-st.write(dir(faker))
-st.code(input())
+# st.write(dir(faker))
+# st.code(input())
 
 
 col1, col2 = st.columns(2)
