@@ -21,7 +21,7 @@ with col2:
     var = st.text_input("write a word")
     if st.button("add element to a list"):
         
-        ls.append(var)
+        ls.append(str(var))
         st.write(ls)
 
 
