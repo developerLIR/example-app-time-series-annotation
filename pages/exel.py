@@ -24,6 +24,4 @@ with col2:
         ls.append(var)
         st.write(ls)
 
-st.markdown("Hello
-
-<h1> How are you </h1>",unsave_allow_html=True)
+st.markdown("Hello G<h1> How are you </h1>",unsave_allow_html=True)
