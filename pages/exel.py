@@ -24,4 +24,8 @@ with col2:
         ls.append(var)
         st.write(ls)
 
-st.markdown("Hello G<h1> How are you </h1>",unsave_allow_html=True)
+
+try:
+    st.markdown("Hello G<h1> How are you </h1>",unsave_allow_html=True)
+except:
+    st.write('an error occured')
