@@ -26,6 +26,13 @@ with col2:
 
 
 try:
-    st.markdown("Hello G<h1> How are you </h1>",unsave_allow_html=True)
+    st.markdown("<h1> How are you </h1>",unsave_allow_html=True)
+except:
+    st.write('an error occured')
+
+
+
+try:
+    st.markdown("A bit of markdown")
 except:
     st.write('an error occured')
