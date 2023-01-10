@@ -3,7 +3,8 @@ import requests as req
 
 url = st.text_input("type url")
 
-response = req.get(url)
+if st.button("run"):
 
-st.write(response.content)
+    response = req.get(url)
+    st.write(response.content)
 
