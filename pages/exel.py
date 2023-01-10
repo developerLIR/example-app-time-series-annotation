@@ -36,3 +36,7 @@ try:
     st.markdown("A bit of markdown")
 except:
     st.write('an error occured')
+
+
+
+df = pd.DataFrame({id:[i for i in faker]})
