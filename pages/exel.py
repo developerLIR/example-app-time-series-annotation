@@ -29,9 +29,9 @@ except:
 
 fake = faker.Faker()
 df = pd.DataFrame({id:[fake.name() for i in range(30)]})
-
+df2 = pd.DataFrame({id:["fake.name() for i in range(30)",'dfdf']})
 # 'this is dataframe method'
-st.dataframe([1,2,3])
+st.dataframe(df2)
 
 # "this is table method"
-st.table([1,2,3])
+st.table(df2)
