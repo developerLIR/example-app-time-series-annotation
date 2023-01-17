@@ -32,7 +32,7 @@ df = pd.DataFrame({id:[fake.name() for i in range(30)]})
 df2 = pd.DataFrame({id:["fake.name() for i in range(30)",'dfdf']})
 x = df2
 # 'this is dataframe method'
+st.table(x)
 st.dataframe(x)
 
 # "this is table method"
-st.table(x)
