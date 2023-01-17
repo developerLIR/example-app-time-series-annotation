@@ -30,8 +30,8 @@ except:
 fake = faker.Faker()
 df = pd.DataFrame({id:[fake.name() for i in range(30)]})
 
-'this is dataframe method'
+# 'this is dataframe method'
 st.dataframe(df)
 
-"this is table method"
+# "this is table method"
 st.table(df)
