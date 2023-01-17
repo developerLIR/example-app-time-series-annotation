@@ -48,6 +48,19 @@ try:
     st.code('st.write(dir(faker.Faker))')
     st.write(dir(faker.Faker))
 except:
+    pass
+    
+try:
+    st.code('st.dataframe(dir(faker.Faker))')
+    st.dataframe(dir(faker.Faker))
+except:
+    'exception'
+df3 = pd.DataFrame({'method':[str(i) for i in dir(faker.Faker)],\
+    'execution':[str(i) for i in range(len(dir(faker.Faker)))]})
+try:
+    st.code('st.table(dir(faker.Faker))')
+    st.table(dir(faker.Faker))
+except:
     'exception'
 
 
