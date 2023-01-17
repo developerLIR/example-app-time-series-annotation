@@ -59,7 +59,7 @@ df3 = pd.DataFrame({'method':[str(i) for i in dir(faker.Faker)],\
     'execution':[str(i) for i in range(len(dir(faker.Faker)))]})
 try:
     st.code('st.table(dir(faker.Faker))')
-    st.table(dir(faker.Faker))
+    st.table(df3)
 except:
     'exception'
 
