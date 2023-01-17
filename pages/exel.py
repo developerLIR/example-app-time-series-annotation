@@ -1,5 +1,5 @@
 import faker 
-import pandas as pandas
+import pandas as pd
 import streamlit as st
 
 st.write('hello')
@@ -27,6 +27,5 @@ try:
 except:
     st.write('an error occured')
 
-
-
-df = pd.DataFrame({id:[i for i in faker]})
+fake = faker.Faker()
+df = pd.DataFrame({id:[fake.name() for i in range(30)]})
