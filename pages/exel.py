@@ -31,7 +31,7 @@ fake = faker.Faker()
 df = pd.DataFrame({id:[fake.name() for i in range(30)]})
 
 # 'this is dataframe method'
-st.dataframe(df)
+st.dataframe([1,2,3])
 
 # "this is table method"
-st.table(df)
+st.table([1,2,3])
