@@ -29,7 +29,7 @@ except:
 
 fake = faker.Faker()
 df = pd.DataFrame({id:[fake.name() for i in range(30)]})
-df2 = pd.DataFrame({id:["fake.name() for i in range(30)",'dfdf']})
+df2 = pd.DataFrame({'id':["fake.name() for i in range(30)",'dfdf']})
 x = df2
 # 'this is dataframe method'
 st.write(x)
