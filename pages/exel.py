@@ -42,9 +42,12 @@ st.dataframe(x)
 try:
     st.code('st.table(dir(faker.Faker))')
     st.table(dir(faker.Faker))
+except:
+    'exception'
 try:
     st.code('st.write(dir(faker.Faker))')
     st.write(dir(faker.Faker))
-
+except:
+    'exception'
 
 
