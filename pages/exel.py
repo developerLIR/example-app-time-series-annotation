@@ -29,7 +29,7 @@ except:
 
 fake = faker.Faker()
 df = pd.DataFrame({id:[fake.name() for i in range(30)]})
-df2 = pd.DataFrame({'id':["fake.name() for i in range(30)",'dfdf']})
+df2 = pd.DataFrame({'month':["fake.name() for i in range(30)",'dfdf'],'value':[]})
 x = df2
 'this is write method'
 st.write(x)
@@ -38,3 +38,13 @@ st.table(x)
 st.dataframe(x)
 
 "this is table method"
+
+try:
+    st.code('st.table(dir(faker.Faker))')
+    st.table(dir(faker.Faker))
+try:
+    st.code('st.write(dir(faker.Faker))')
+    st.write(dir(faker.Faker))
+
+
+
