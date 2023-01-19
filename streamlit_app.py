@@ -105,8 +105,7 @@ st.altair_chart((chart + annotation_layer).interactive(), use_container_width=Tr
 st.write("## Code")
 
 st.write(
-    "See more in our public [GitHub"
-    " repository](https://github.com/streamlit/example-app-time-series-annotation)"
+    "See more in our public [GitHub repository](https://github.com/streamlit/example-app-time-series-annotation)"
 )
 
 st.code(
