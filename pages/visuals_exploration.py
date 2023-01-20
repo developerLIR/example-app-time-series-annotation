@@ -10,7 +10,7 @@ df = pd.DataFrame({'value1':[44,1,13,2],\
  
 
 st.line_chart(df)
-st.write(help(st.line_chart()))
+st.write(help(st.line_chart)
 # def viz_test(df):
 #         st.code()
 # st
