@@ -6,7 +6,7 @@ st.write('hello')
 # st.write(dir(faker))
 # st.code(input())
 col1, col2 = st.columns(2)
-with col1:
+with col1:0
     bt1 = st.button("click to create a list")
     if bt1:
         ls = []
@@ -56,7 +56,8 @@ try:
 except:
     'exception'
 df3 = pd.DataFrame({'method':[str(i) for i in dir(faker.Faker)],\
-    'execution':[str(i) for i in range(len(dir(faker.Faker)))]})
+    'execution':[str(i) for i in range(len(dir(faker.Faker)))],\
+        'help':[help(f'') for i in dir(faker.Faker)]})
 try:
     st.code('st.table(dir(faker.Faker))')
     st.table(df3)
