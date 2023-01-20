@@ -7,10 +7,10 @@ import pandas as pd
 df = pd.DataFrame({'value1':[44,1,13,2],\
  'value2':[3,4,55,2]},index=['january','february','march','april'])
 
- 
+st.write(help(pd.DataFrame())) 
 
 st.line_chart(df)
-st.write(help(st.line_chart))
+
 # def viz_test(df):
 #         st.code()
 # st
